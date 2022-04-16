@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-width: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 80px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li A button{
+    display: inline-block;
+    border: none;
+    background: none;
+    border-radius: 40px;
+    color: #333;
+    font-size: 11pt;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none;
+    width: 80%;
+}
+
+header ul li A button:hover {
+    background: #EE2F58;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contudo {
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contudo .conteudo-texto {
+    position: relative;
+    max-width: 600px;
+}
+
+.contudo .conteudo-texto h2 {
+    color: #333;
+    font-size: 2.86em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.contudo .conteudo-texto h2 span {
+    color: #EE2F58;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.contudo .conteudo-texto p {
+    margin-top: 20px;
+    color: #333;
+}
+
+.contudo .conteudo-texto a button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #EE2F58;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contudo .conteudo-img {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.contudo .conteudo-img img {
+    max-width: 450px;
+}
+
+.social {
+    position: absolute;
+    top: 60%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social li {
+    list-style: none;
+}
+
+.social li a {
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circulo {
+    position: absolute;
+    background: #EE2F58;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    clip-path: circle(600px at right 800px);
+}
